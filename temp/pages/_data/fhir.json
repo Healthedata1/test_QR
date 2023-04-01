@@ -9,17 +9,16 @@
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
-  "toolingVersion" : "5.0.0-draft-final",
+  "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
-  "toolingVersionFull" : "5.0.0-draft-final (3)",
+  "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 3,
   "processedFiles" : 29,
-  "genDate" : "Fri, Mar 31, 2023 22:30-0700",
+  "genDate" : "Fri, Mar 31, 2023 22:38-0700",
   "genDay" : "31/03/2023",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
-    "ActorDefinition",
     "AdverseEvent",
     "AllergyIntolerance",
     "Appointment",
@@ -134,7 +133,6 @@
     "QuestionnaireResponse",
     "RelatedPerson",
     "RequestGroup",
-    "Requirements",
     "ResearchDefinition",
     "ResearchElementDefinition",
     "ResearchStudy",
@@ -245,7 +243,7 @@
         "telecom" : ["mailto:ehaas@healthedatainc.com"]
       }
     ],
-    "date" : "2023-03-31T22:30:06-07:00",
+    "date" : "2023-03-31T22:38:53-07:00",
     "description" : "This is a **Healthedata1** sandbox for creation of resources and examples",
     "copyright" : null,
     "fhirVersion" : "4.0.1"
@@ -261,9 +259,7 @@
     "us.nlm.vsac_0.7.0" : "http://fhir.org/packages/us.nlm.vsac",
     "hl7.fhir.uv.sdc_3.0.0" : "http://hl7.org/fhir/uv/sdc/STU3",
     "hl7_fhir_uv_sdc" : "http://hl7.org/fhir/uv/sdc/STU3",
-    "igtools" : "https://build.fhir.org/ig/FHIR/fhir-tools-ig/",
-    "hl7.fhir.r5.core" : "http://build.fhir.org/",
-    "hl7.fhir.uv.extensions" : "http://build.fhir.org/ig/HL7/fhir-extensions"
+    "igtools" : "https://build.fhir.org/ig/FHIR/fhir-tools-ig/"
   },
   "hl7tx" : "http://terminology.hl7.org",
   "hl7_fhir_us_core" : "http://hl7.org/fhir/us/core",
@@ -273,7 +269,5 @@
   "us.nlm.vsac_0.7.0" : "http://fhir.org/packages/us.nlm.vsac",
   "hl7.fhir.uv.sdc_3.0.0" : "http://hl7.org/fhir/uv/sdc",
   "hl7_fhir_uv_sdc" : "http://hl7.org/fhir/uv/sdc",
-  "igtools" : "http://hl7.org/fhir/tools",
-  "hl7.fhir.r5.core" : "http://build.fhir.org",
-  "hl7.fhir.uv.extensions" : "http://build.fhir.org/ig/HL7/fhir-extensions"
+  "igtools" : "http://hl7.org/fhir/tools"
 }
