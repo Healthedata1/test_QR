@@ -1,0 +1,90 @@
+resourceType: ImplementationGuide
+id: healthedata1-sandbox
+extension:
+- url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+  valueCode: trial-use
+- url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+  valueInteger: 2
+url: http://www.fhir.org/guides/healthedata1-sandbox/ImplementationGuide/healthedata1-sandbox
+version: 0.1.0
+name: HealthEData_1Sandbox
+title: Health eData 1 Sandbox
+status: active
+publisher: Health eData Inc
+contact:
+- telecom:
+  - system: email
+    value: mailto:ehaas@healthedatainc.com
+description: This is a **Healthedata1** sandbox for creation of resources and examples
+packageId: healthedata1-sandbox
+license: CC0-1.0
+fhirVersion:
+- 4.0.1
+dependsOn:
+- packageId: hl7.fhir.us.core
+  version: 5.0.1
+  uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
+  id: hl7_fhir_us_core
+- packageId: hl7.fhir.uv.sdc
+  version: 3.0.0
+  uri: http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc
+  id: hl7_fhir_uv_sdc
+definition:
+  resource:
+  - reference:
+      reference: Questionnaire/AHC-HRSN-screening-example
+    description: This is a SDC Questionnaire example that represents the *US Core
+      Observation Screening Assessment Profile* AHC-HRSN defined in LOINC (code 96777-8).
+      This example contains no actual questions, but is used to provide metadata about
+      the assessment tool.
+    name: Questionnaire PHQ-9 Example
+    exampleCanonical: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire
+  - reference:
+      reference: QuestionnaireResponse/AHC-HRSN-screening-example
+    description: This is a US Core QuestionnaireResponse example that represents questions
+      and selected answers from the *US Core Observation Screening Assessment Profile*
+      AHC-HRSN defined in LOINC (code 96777-8)). This example is generated using the
+      LHC-Forms SDC Questionnaire App. This example reference a FHIR questionnaire
+      that contains no actual questions, but is used to provide metadata about the
+      assessment tool.
+    name: QuestionnaireResponse AHC HRSN Screening Example
+    exampleCanonical: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse
+  page:
+    nameUrl: toc.html
+    title: Table of Contents
+    generation: html
+    page:
+    - nameUrl: index.html
+      title: Home
+      generation: markdown
+  parameter:
+  - code: copyrightyear
+    value: 2020+
+  - code: releaselabel
+    value: CI Build
+  - code: path-expansion-params
+    value: ../../input/_resources/exp-params.json
+  - code: show-inherited-invariants
+    value: 'true'
+  - code: usage-stats-opt-out
+    value: 'false'
+  - code: path-output
+    value: docs
+  - code: path-resource
+    value: input/resources
+  - code: path-resource
+    value: fsh-generated/resources
+  - code: path-resource
+    value: input/intro-notes
+  - code: path-liquid
+    value: input/images/liquid
+  - code: excludexml
+    value: 'true'
+  - code: excludejson
+    value: 'false'
+  - code: excludettl
+    value: 'true'
+  - code: excludemap
+    value: 'true'
+  - code: propagate-status
+    value: 'true'
