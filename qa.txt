@@ -3,7 +3,7 @@ HealthEData_1Sandbox : Validation Results
 
 err = 19, warn = 3, info = 1
 IG Publisher Version: 1.6.6
-Generated Wed Apr 24 05:26:00 UTC 2024. FHIR version 4.0.1 for healthedata1-sandbox#0.1.0 (canonical = http://www.fhir.org/guides/healthedata1-sandbox)
+Generated Wed Apr 24 05:42:09 UTC 2024. FHIR version 4.0.1 for healthedata1-sandbox#0.1.0 (canonical = http://www.fhir.org/guides/healthedata1-sandbox)
  Build Errors : 3 / 2 / 0
  /home/runner/work/test_QR/test_QR/fsh-generated/resources/ImplementationGuide-healthedata1-sandbox : 0 / 0 / 1
  /home/runner/work/test_QR/test_QR/input/examples/Questionnaire-AHC-HRSN-screening-example : 0 / 0 / 2
