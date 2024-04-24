@@ -22,7 +22,7 @@
    <name value="HealthEData_1Sandbox"/>
    <title value="Health eData 1 Sandbox"/>
    <status value="active"/>
-   <date value="2023-03-31T22:38:53-07:00"/>
+   <date value="2024-04-23T22:19:49-07:00"/>
    <publisher value="Health eData Inc"/>
    <contact>
       <telecom>
@@ -40,7 +40,15 @@
       </extension>
       <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
       <packageId value="hl7.terminology.r4"/>
-      <version value="5.0.0"/>
+      <version value="5.5.0"/>
+   </dependsOn>
+   <dependsOn id="hl7ext">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+         <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+      </extension>
+      <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+      <packageId value="hl7.fhir.uv.extensions.r4"/>
+      <version value="1.0.0"/>
    </dependsOn>
    <dependsOn id="hl7_fhir_us_core">
       <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
@@ -279,6 +287,14 @@
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
          <extension url="code">
+            <valueString value="apply-wg"/>
+         </extension>
+         <extension url="value">
+            <valueString value="true"/>
+         </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+         <extension url="code">
             <valueString value="active-tables"/>
          </extension>
          <extension url="value">
@@ -309,36 +325,117 @@
             <valueString value="true"/>
          </extension>
       </extension>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+         <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
+      </extension>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <grouping id="-str-profile">
+         <name value="Structures: Resource Profiles"/>
+         <description value="These define constraints on FHIR resources for systems conforming to this implementation guide."/>
+      </grouping>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       <grouping id="-ex-example">
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
       </grouping>
-
-
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-template-basic.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/template-basic"/>
+         </reference>
+         <name value="Health eData Template Profile"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Questionnaire"/>
          </extension>
@@ -354,6 +451,9 @@
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="QuestionnaireResponse"/>
          </extension>
@@ -366,6 +466,23 @@
          <name value="QuestionnaireResponse AHC HRSN Screening Example"/>
          <description value="This is a US Core QuestionnaireResponse example that represents questions and selected answers from the *US Core Observation Screening Assessment Profile* AHC-HRSN defined in LOINC (code 96777-8)). This example is generated using the LHC-Forms SDC Questionnaire App. This example reference a FHIR questionnaire that contains no actual questions, but is used to provide metadata about the assessment tool."/>
          <exampleCanonical value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Basic"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Basic-basic-example.html"/>
+         </extension>
+         <reference>
+            <reference value="Basic/basic-example"/>
+         </reference>
+         <name value="basic-example"/>
+         <exampleCanonical value="http://www.fhir.org/guides/test3/StructureDefinition/template-basic"/>
          <groupingId value="-ex-example"/>
       </resource>
       <page>
@@ -393,6 +510,16 @@
             <nameUrl value="artifacts.html"/>
             <title value="Artifacts Summary"/>
             <generation value="html"/>
+            <page>
+               <nameUrl value="StructureDefinition-template-basic.html"/>
+               <title value="Health eData Template Profile"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Basic-basic-example.html"/>
+               <title value="basic-example"/>
+               <generation value="generated"/>
+            </page>
             <page>
                <nameUrl value="Questionnaire-AHC-HRSN-screening-example.html"/>
                <title value="Questionnaire PHQ-9 Example"/>
@@ -575,6 +702,10 @@
       </parameter>
       <parameter>
          <code value="apply-version"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-wg"/>
          <value value="true"/>
       </parameter>
       <parameter>

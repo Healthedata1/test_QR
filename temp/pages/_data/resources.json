@@ -1,16 +1,17 @@
 {
   "ImplementationGuide/healthedata1-sandbox" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 0,
     "source" : "/Users/ehaas/Documents/FHIR/test_QR/fsh-generated/resources/ImplementationGuide-healthedata1-sandbox.json",
     "sourceTail" : "ImplementationGuide-healthedata1-sandbox.json",
-    "path" : "ImplementationGuide-healthedata1-sandbox.html",
+    "path" : "index.html",
     "url" : "http://www.fhir.org/guides/healthedata1-sandbox/ImplementationGuide/healthedata1-sandbox",
     "version" : "0.1.0",
     "name" : "HealthEData_1Sandbox",
     "title" : "Health eData 1 Sandbox",
-    "date" : "2023-03-31T22:38:53-07:00",
+    "date" : "2024-04-23T22:19:49-07:00",
     "description" : "This is a **Healthedata1** sandbox for creation of resources and examples",
     "status" : {
       "class" : "colstu",
@@ -23,13 +24,14 @@
   },
   "Questionnaire/AHC-HRSN-screening-example" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 1,
     "source" : "input/examples/Questionnaire-AHC-HRSN-screening-example.json",
     "sourceTail" : "Questionnaire-AHC-HRSN-screening-example.json",
     "path" : "Questionnaire-AHC-HRSN-screening-example.html",
     "url" : "http://hl7.org/fhir/us/core/Questionnaire/AHC-HRSN-screening-example",
-    "identifiers" : "id:\u00a0AHC-HRSN-screening-example",
+    "identifiers" : "http://example.org/Questionnaire/identifiers#AHC-HRSN-screening-example",
     "version" : "0.1.0",
     "name" : "AHCHRSNScreening",
     "title" : "AHC HRSN Screening",
@@ -44,6 +46,7 @@
   },
   "QuestionnaireResponse/AHC-HRSN-screening-example" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 2,
     "source" : "input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json",
@@ -53,5 +56,42 @@
       "class" : "colsi",
       "standards-status" : "informative"
     }
+  },
+  "Basic/basic-example" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "input/examples/basic-example.json",
+    "sourceTail" : "basic-example.json",
+    "path" : "Basic-basic-example.html",
+    "status" : {
+      "class" : "colsi",
+      "standards-status" : "informative"
+    }
+  },
+  "StructureDefinition/template-basic" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "input/resources/basic.json",
+    "sourceTail" : "basic.json",
+    "path" : "StructureDefinition-template-basic.html",
+    "url" : "http://www.fhir.org/guides/test3/StructureDefinition/template-basic",
+    "version" : "0.1.0",
+    "name" : "TemplateBasic",
+    "title" : "Health eData Template Profile",
+    "experimental" : false,
+    "date" : "2024-04-23",
+    "status" : {
+      "class" : "colstu",
+      "owner" : "Health eData Inc",
+      "standards-status" : "trial-use",
+      "fmm" : "2",
+      "status" : "Active"
+    },
+    "fmm" : "2",
+    "fmmSource" : "FMM derived from: \r\nhttp://www.fhir.org/guides/healthedata1-sandbox/ImplementationGuide/healthedata1-sandbox"
   }
 }

@@ -1,0 +1,37 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "template-basic",
+    "url": "http://www.fhir.org/guides/test3/StructureDefinition/template-basic",
+    "version": "0.0.0",
+    "name": "TemplateBasic",
+    "title": "Health eData Template Profile",
+    "status": "active",
+    "experimental": false,
+    "date": "2024-04-23",
+    "publisher": "Health eData Inc",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Basic",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Basic",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Basic",
+                "path": "Basic",
+                "definition": "This is a simple example Template."
+            },
+            {
+                "id": "Basic.code",
+                "path": "Basic.code",
+                "binding": {
+                    "strength": "extensible",
+                    "description": "attachments document type",
+                    "valueSet": "http://loinc.org/vs/valid-hl7-attachment-requests"
+                },
+                "mustSupport": true
+            }
+        ]
+    }
+}

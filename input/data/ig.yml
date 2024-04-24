@@ -32,6 +32,14 @@ dependsOn:
 definition:
   resource:
   - reference:
+      reference: Basic/basic-example
+    name: basic-example
+    exampleCanonical: http://www.fhir.org/guides/test3/StructureDefinition/template-basic
+  - reference:
+      reference: StructureDefinition/template-basic
+    exampleBoolean: false
+    name: Health eData Template Profile
+  - reference:
       reference: Questionnaire/AHC-HRSN-screening-example
     description: This is a SDC Questionnaire example that represents the *US Core
       Observation Screening Assessment Profile* AHC-HRSN defined in LOINC (code 96777-8).
