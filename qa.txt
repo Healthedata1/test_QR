@@ -1,0 +1,45 @@
+HealthEData_1Sandbox : Validation Results
+=========================================
+
+err = 19, warn = 3, info = 1
+IG Publisher Version: 1.6.6
+Generated Wed Apr 24 05:26:00 UTC 2024. FHIR version 4.0.1 for healthedata1-sandbox#0.1.0 (canonical = http://www.fhir.org/guides/healthedata1-sandbox)
+ Build Errors : 3 / 2 / 0
+ /home/runner/work/test_QR/test_QR/fsh-generated/resources/ImplementationGuide-healthedata1-sandbox : 0 / 0 / 1
+ /home/runner/work/test_QR/test_QR/input/examples/Questionnaire-AHC-HRSN-screening-example : 0 / 0 / 2
+ /home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example : 17 / 0 / 1
+ /home/runner/work/test_QR/test_QR/input/examples/basic-example : 0 / 1 / 1
+ /home/runner/work/test_QR/test_QR/input/resources/basic : 2 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/template-basic.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Basic/basic-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /home/runner/work/test_QR/test_QR/docs/index.html#/html/body/div/div/div/div/div/p/a at Line 199, column 5: The link 'http://hl7.org/fhir/us/core/STU4/index.html' for "US Core" cannot be resolved
+ERROR: /home/runner/work/test_QR/test_QR/docs/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 218, column 8: The link 'http://hl7.org/fhir/us/core/STU4/index.html' for "US Core" cannot be resolved
+ERROR: /home/runner/work/test_QR/test_QR/docs/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 241, column 12: The link 'http://hl7.org/fhir/us/core/STU4/index.html' for "US Core" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-healthedata1-sandbox.json ==
+== input/examples/Questionnaire-AHC-HRSN-screening-example.json ==
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json ==
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/76513-1' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/96780-2' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/96781-0' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/93159-2' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/97027-7' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/96782-8' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/89555-7' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/68516-4' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/68517-2' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/96842-0' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/95530-2' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/68524-8' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/44250-9' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/44255-8' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/93038-8' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/69858-9' not found in questionnaire
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse: LinkId '/69861-3' not found in questionnaire
+== input/examples/basic-example.json ==
+WARNING: Basic/basic-example: Basic.code: ValueSet 'http://loinc.org/vs/valid-hl7-attachment-requests' not found
+== input/resources/basic.json ==
+ERROR: StructureDefinition.where(url = 'http://www.fhir.org/guides/test3/StructureDefinition/template-basic'): Conformance resource /home/runner/work/test_QR/test_QR/input/resources/basic.json - the canonical URL (http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/template-basic) does not match the URL (http://www.fhir.org/guides/test3/StructureDefinition/template-basic)
+ERROR: /home/runner/work/test_QR/test_QR/input/resources/basic: URL Mismatch http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/template-basic vs http://www.fhir.org/guides/test3/StructureDefinition/template-basic

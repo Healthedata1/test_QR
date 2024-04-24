@@ -1,0 +1,6 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	responsesForQuestionnaire	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-healthedata1-sandbox.json	4583	-	0	0	0	0	0	0	6	65	0	0	0	0	0	0	0	1	0	0	92	121	0	0	0	0	3	0	3
+input/examples/Questionnaire-AHC-HRSN-screening-example.json	1704	18	0	0	0	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	30	26	0	0	0	0	0	0	0
+input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json	9127	19	0	0	0	0	0	0	2	197	0	0	0	0	0	0	0	0	0	0	97	35	0	0	0	0	0	0	0
+input/examples/basic-example.json	742	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	14	0	0	0	0	0	0	0
+input/resources/basic.json	1167	16	0	0	0	0	0	27	0	23	0	0	0	0	0	0	0	1	0	0	96	2255	0	0	0	0	4	0	1

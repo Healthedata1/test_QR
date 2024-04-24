@@ -1,0 +1,32 @@
+HealthEData_1Sandbox
+=========================================
+
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/template-basic.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Basic/basic-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/us/core/STU4/index.html' for "US Core" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/us/core/STU4/index.html' for "US Core" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/us/core/STU4/index.html' for "US Core" cannot be resolved (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/Questionnaire-AHC-HRSN-screening-example.json: line 0, col 0, Info - This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root) (BUSINESSRULE)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 27, col 10, Error - LinkId '/76513-1' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 40, col 10, Error - LinkId '/96780-2' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 53, col 10, Error - LinkId '/96781-0' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 66, col 10, Error - LinkId '/93159-2' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 79, col 10, Error - LinkId '/97027-7' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 92, col 10, Error - LinkId '/96782-8' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 105, col 10, Error - LinkId '/89555-7' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 118, col 10, Error - LinkId '/68516-4' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 131, col 10, Error - LinkId '/68517-2' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 144, col 10, Error - LinkId '/96842-0' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 157, col 10, Error - LinkId '/95530-2' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 170, col 10, Error - LinkId '/68524-8' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 183, col 10, Error - LinkId '/44250-9' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 196, col 10, Error - LinkId '/44255-8' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 209, col 10, Error - LinkId '/93038-8' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 222, col 10, Error - LinkId '/69858-9' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json: line 235, col 10, Error - LinkId '/69861-3' not found in questionnaire (NOTFOUND)
+/home/runner/work/test_QR/test_QR/input/examples/basic-example.json: line 13, col 6, Warning - ValueSet 'http://loinc.org/vs/valid-hl7-attachment-requests' not found (CODEINVALID)
+/home/runner/work/test_QR/test_QR/input/resources/basic.json: line 0, col 0, Error - Conformance resource /home/runner/work/test_QR/test_QR/input/resources/basic.json - the canonical URL (http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/template-basic) does not match the URL (http://www.fhir.org/guides/test3/StructureDefinition/template-basic) (INVALID)
+/home/runner/work/test_QR/test_QR/input/resources/basic.json: line 0, col 0, Error - URL Mismatch http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/template-basic vs http://www.fhir.org/guides/test3/StructureDefinition/template-basic (BUSINESSRULE)
+
+err = 19, warn = 3, info = 1
+IG Publisher Version: 1.6.6

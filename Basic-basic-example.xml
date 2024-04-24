@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="basic-example"/>
+  <meta>
+    <profile value="http://www.fhir.org/guides/test3/StructureDefinition/template-basic"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">LOINC attachment codes at https://loinc.org/attachments/ and ValueSet expansion at https://fhir.loinc.org/ValueSet/$expand?url=http://loinc.org/vs/valid-hl7-attachment-requests</div>
+  </text>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="80792-5"/>
+      <display value="Pulmonary Diagnostic study note"/>
+    </coding>
+    <text value="Good Example"/>
+  </code>
+</Basic>

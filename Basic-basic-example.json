@@ -1,0 +1,19 @@
+{
+  "resourceType" : "Basic",
+  "id" : "basic-example",
+  "meta" : {
+    "profile" : ["http://www.fhir.org/guides/test3/StructureDefinition/template-basic"]
+  },
+  "text" : {
+    "status" : "additional",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">LOINC attachment codes at https://loinc.org/attachments/ and ValueSet expansion at https://fhir.loinc.org/ValueSet/$expand?url=http://loinc.org/vs/valid-hl7-attachment-requests</div>"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "80792-5",
+      "display" : "Pulmonary Diagnostic study note"
+    }],
+    "text" : "Good Example"
+  }
+}
